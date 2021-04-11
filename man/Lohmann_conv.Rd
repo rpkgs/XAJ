@@ -14,10 +14,9 @@ Lohmann_conv(Qs, uh)
 }
 \value{
 The routing result of the XAJ output, that is, the time series
-        of the streamflow at the outlet of the river.
+of the streamflow at the outlet of the river.
 }
 \description{
 Convolution of the distributed Xinanjiang model output by
-             the routing model of Lohman et al.
+the routing model of Lohman et al.
 }
-

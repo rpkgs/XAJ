@@ -8,11 +8,11 @@ Lohmann_uh(river, stn_loc, v = 1.5, diff = 800)
 }
 \arguments{
 \item{river}{River network table like the output of function
-`dir2river()`.}
+\code{dir2river()}.}
 
 \item{stn_loc}{Hydrological station located in which river channel.}
 
-\item{v}{Flow velocity of the river channel [m].}
+\item{v}{Flow velocity of the river channel \link{m}.}
 
 \item{diff}{Water diffusion coefficient of the river channel.}
 }
@@ -21,8 +21,7 @@ A matrix of the UH of each gridcells.
 }
 \description{
 Create unit hydrograph matrix of the Lohmann
-             routing model. Each column is the UH of each
-             subbasins while each row is the UH of each time
-             steps.
+routing model. Each column is the UH of each
+subbasins while each row is the UH of each time
+steps.
 }
-

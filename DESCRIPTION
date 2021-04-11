@@ -13,5 +13,5 @@ LazyData: true
 Imports:
         Rcpp (>= 0.12.13),
 LinkingTo: Rcpp
-RoxygenNote: 5.0.1
-Suggests: mco
+RoxygenNote: 7.1.2
+Roxygen: list(markdown = TRUE)

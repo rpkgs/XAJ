@@ -2,8 +2,8 @@
 
 export(Lohmann_conv)
 export(XAJ)
-export(XAJ_param_range)
+export(XAJ.param.range)
 export(dir2river)
-export(name_params)
-importFrom(Rcpp,sourceCpp)
-useDynLib(XAJ)
+importFrom(stats,convolve)
+importFrom(stats,pgamma)
+importFrom(utils,read.table)

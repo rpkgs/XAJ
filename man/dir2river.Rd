@@ -18,12 +18,11 @@ TRUE.}
 }
 \value{
 A table containing the informations of the river
-        network. Each row represents a river channel, the first column
-        is the next river channel to flow in, the second column is the
-        length [m] of the river channel, while the third column is the
-        subbasin flow into that river channel.
+network. Each row represents a river channel, the first column
+is the next river channel to flow in, the second column is the
+length \link{m} of the river channel, while the third column is the
+subbasin flow into that river channel.
 }
 \description{
 Conver flow direction ascii grid to rivers.
 }
-
